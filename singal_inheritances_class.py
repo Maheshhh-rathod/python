@@ -1,6 +1,6 @@
 class Country:
     def acceptCountry(self):
-      self.cname=input("enter the country name :")
+      self.cname=input("enter the country name:")
     def dispCountry(self):
       print("Country name is :",self.cname)
 class State(Country):
